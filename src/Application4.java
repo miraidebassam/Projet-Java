@@ -13,7 +13,7 @@ public class Application4 {
 
             System.out.println(intArray[6]);
         }catch (NullPointerException | ArrayIndexOutOfBoundsException e){
-//            MANAGE ERROR HERE
+//            Gerer l'erreur
             System.err.println(e.getMessage());
 
         }
